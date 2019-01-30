@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width">
+  <meta name="author" content="Marlon Manrique">
+  <meta name="keywords" content="Hoja de Vida,Curriculum Vitae,Resumen Curricular">
+  <meta name="description" content="Hoja de Vida,Curriculum Vitae,Resumen Curricular">
+  <title>Educación</title>
+</head>
+<body>
+  <header>
+
+    <svg width="200px" height="100px" viewBox="0 0 200 100" >
+      <image xlink:href="img/mi_logo.svg" width="200px" height="100px"></image>
+    </svg>
+    <h1>Hoja de Vida</h1>
+    <h2>Marlon Manrique</h2>
+    <h3>Fecha y lugar de nacimiento:</h3>
+    <p>14 de Junio de 1985, Villa del Rosario / Colombia</p>    
+  </header>
+  <nav>
+    <ul>
+      <li><a href="index.html"><strong>Inicio</strong></a></li>
+      <li><a href="educacion.html"><strong>Educación</strong></a></li>
+      <li><a href="experiencia.html"><strong>Experiencia</strong></a></li>
+    </ul>
+  </nav>
+  <section>
+    <h2>Educación</h2>
+    <article>
+      <table border="1">
+        <thead>
+          <tr>
+            <th>Año</th>
+            <th>Institución</th>
+            <th>Lugar</th>
+            <th>¿Culminó?</th>
+          </tr>   
+        </thead>
+        <tbody>
+        <tr>
+          <td>2001</td>
+          <td>Instituto Salesiano</td>
+          <td>Cúcuta</td>
+          <td>Si</td>
+        </tr>
+        <tr>
+          <td>2009</td>
+          <td>SENA</td>
+          <td>Cúcuta</td>
+          <td>Si</td>
+        </tr>
+        <tr>
+          <td>2018</td>
+          <td>UNAD</td>
+          <td>Pamplona</td>
+          <td>No</td>
+        </tr>
+        </tbody>
+      </table>
+    </article>
+    <br>
+    <article>
+      <form autocomplete="on" name="Agregar Estudios">
+        
+          <legend><h3>Agregar Estudios</h3></legend>        
+          <label for="ano"><strong>Año: </strong></label>
+          <select>
+            <option>2011</option>
+            <option>2012</option>
+            <option>2013</option>
+            <option>2014</option>
+            <option>2015</option>
+            <option>2016</option>
+            <option>2017</option>
+            <option>2018</option>
+            <option>2019</option>
+          </select>
+          <p>
+            <label for="institucion"><strong>Institución: </strong></label>        
+            <input type="text" name="institucion" id="institucion" placeholder="Ej: Salesiano" required>
+          </p>
+          <p>
+            <label for="lugar"><strong>Lugar: </strong></label>          
+            <textarea name="lugar" id="lugar" cols="20" rows="1" placeholder="Ej: Cúcuta" required></textarea>
+          </p>                           
+          <p>
+            <input type="submit" value="Enviar"> 
+          </p>              
+      </form>
+    </article>
+  </section>
+  <br>
+  <footer>
+    <strong><em>mmanrique@misena.edu.co</em></strong>
+    <br>
+    <strong><strong><em>311-218-4805</em></strong></strong>
+    <br>
+    <strong><strong><em>Colombia</em></strong></strong>
+  </footer>
+</body>
+</html>
